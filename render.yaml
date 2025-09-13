@@ -1,5 +1,6 @@
 services:
   - name: backup-db
+    version: 20250913152800
     type: cron
     schedule: "0 6 * * *"
     region: ohio
